@@ -124,3 +124,159 @@
   label: 'right meow!',
   timestamp: '2023-01-12T16:06:13.924Z'
 }
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:48:41.556Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:48:41.857Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:48:41.892Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:52:03.548Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:52:03.854Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:52:03.888Z'
+}
+{
+  message: '[tests router][router.get] parameter :id = 16',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:52:12.716Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:53:08.406Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:53:08.705Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:53:08.732Z'
+}
+{
+  message: '[tests router][router.delete] parameter :id = 16',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:53:27.929Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:56:30.598Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:56:30.882Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:56:30.914Z'
+}
+{
+  message: 'bad object was recieved. {"updatedat":"2023-01-08T15:06:42.441Z","name1":"tal","courseid":3}',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:57:31.602Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:58:32.550Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:58:32.859Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:58:32.899Z'
+}
+{
+  message: 'bad object was recieved. {"updatedat":"2023-01-08T15:06:42.441Z","name11":"taly","courseid":3}',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:58:46.830Z'
+}
+{
+  message: 'bad object was recieved. {"name":"gel","courseid":80}',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:01:09.715Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:02:49.104Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:02:49.386Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:02:49.419Z'
+}
+{
+  message: `error during POST in test router. test = {"updatedat":"1/12/2023, 7:03:04 PM","name":"geel","date":"1/12/2023, 7:03:04 PM","courseid":"80"} Cannot read properties of undefined (reading '0')`,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:03:16.428Z'
+}
+{
+  message: '[tests router][router.delete] parameter :id = 17',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:03:56.917Z'
+}
+{
+  message: '[tests router][router.delete] parameter :id = 12',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:04:52.171Z'
+}

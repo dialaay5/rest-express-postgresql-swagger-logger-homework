@@ -104,6 +104,7 @@ router.get('/', async (req, resp) => {
 // get end point by id
 router.get('/:id', async (req, resp) => {
     try {
+        logger.debug(`[tests router][router.get] parameter :id = ${req.params.id}`)
         const employees = await test_repo.get_test_by_id(req.params.id)
         resp.status(200).json(employees)
     }
@@ -221,7 +222,8 @@ router.put('/:id', async (req, resp) => {
     }
     catch (err) {
         console.log(err);
-        logger.error(`error during PUT in test router.${err.message}`)
+        logger.error(`[tests router][router.put] ERROR: error during PUT.` +
+            `employee = ${JSON.stringify(employee)} message = ${err.message}`);
         resp.status(500).json({ "error": err.message })
     }
 })
@@ -250,6 +252,7 @@ router.put('/:id', async (req, resp) => {
 // DELETE 
 router.delete('/:id', async (req, resp) => {
     try {
+        logger.debug(`[tests router][router.delete] parameter :id = ${req.params.id}`)
         const result = await test_repo.delet_test_by_id(req.params.id)
         resp.status(200).json({
             status: 'success',
@@ -280,7 +283,8 @@ router.patch('/:id', async (req, resp) => {
     }
     catch (err) {
         console.log(err);
-        logger.error(`error during PATCH in test router.${err.message}`)
+        logger.error(`[tests router][router.patch] ERROR: error during PUT.` +
+                      `employee = ${JSON.stringify(employee)} message = ${err.message}`);
         resp.status(500).json({ "error": err.message })
     }
 })

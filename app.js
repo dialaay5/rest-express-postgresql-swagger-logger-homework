@@ -59,3 +59,6 @@ app.use(
 
 app.use('/test', testRouter)
 
+logger.debug('this is a debug message')
+
+
