@@ -166,7 +166,8 @@ router.post('/', async (req, resp) => {
         }
         const result = await test_repo.insert_test(employee)
         resp.status(201).json({
-            new_employee: { result }
+            new_employee: { ...employee, ID: result.rows[0] },
+            url: `http://localhost:8080/test/${result.rows[0]}`
         })
     }
     catch (err) {

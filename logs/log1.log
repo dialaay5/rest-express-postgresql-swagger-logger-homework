@@ -88,3 +88,39 @@
   label: 'right meow!',
   timestamp: '2023-01-11T18:50:15.013Z'
 }
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:04:11.361Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:04:11.767Z'
+}
+{
+  message: 'error during POST in test router. test = {"updatedat":"1/12/2023, 6:04:30 PM","name":"itayy","date":"1/12/2023, 6:04:30 PM","courseid":"90"} connectedKnex(...).retuning is not a function',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:04:53.669Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:06:05.616Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:06:05.921Z'
+}
+{
+  message: `error during POST in test router. test = {"updatedat":"1/12/2023, 6:04:30 PM","name":"itayyy","date":"1/12/2023, 6:04:30 PM","courseid":"91"} Cannot read properties of undefined (reading '0')`,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T16:06:13.924Z'
+}
