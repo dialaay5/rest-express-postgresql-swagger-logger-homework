@@ -280,3 +280,69 @@
   label: 'right meow!',
   timestamp: '2023-01-12T17:04:52.171Z'
 }
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:18:49.673Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:18:49.996Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:18:50.027Z'
+}
+{
+  message: '[tests router][router.get] parameter :id = 1',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:19:44.955Z'
+}
+{
+  message: '[tests router][router.delete] parameter :id = 3',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:19:57.835Z'
+}
+{
+  message: `error during POST in test router. test = {"updatedat":"2023-12-01T19:20:42.441Z","name":"kareen","date":"2023-12-01T19:20:42.441Z","courseid":90} Cannot read properties of undefined (reading '0')`,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:21:03.408Z'
+}
+{
+  message: `error during POST in test router. test = {"updatedat":"2023-12-01T19:20:42.441Z","name":"karen","date":"2023-12-01T19:20:42.441Z","courseid":91} Cannot read properties of undefined (reading '0')`,
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:22:44.900Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:26:15.798Z'
+}
+{
+  message: 'test1',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:26:16.099Z'
+}
+{
+  message: 'this is a debug message',
+  level: 'debug',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:26:16.134Z'
+}
+{
+  message: 'error during POST in test router. test = {"updatedat":"2023-12-01T19:06:42.441Z","name":"karol","date":"2023-12-01T19:06:42.441Z-Hall","courseid":3} insert into "test" ("courseid", "date", "name", "updatedat") values ($1, $2, $3, $4) returning "id" - time zone "z-hall" not recognized',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-01-12T17:27:14.289Z'
+}
